@@ -1,9 +1,9 @@
 <template>
 <div>
      <v-row justify="center">
-      <h1 class="display-2 font-weight-bold mb-3">
+      <h2 class="display-2 font-weight-bold mb-3">
           Exercise 2
-      </h1>
+      </h2>
     </v-row>
     <v-row justify="center">
       <v-col cols="12" sm="6">
@@ -16,7 +16,7 @@
       </v-col>
       </v-row>
     <v-row justify="center">
-       <v-btn @click="Palindromo()">Verify</v-btn>
+       <v-btn color="primary" @click="Palindromo()">Verify</v-btn>
     </v-row>
     <v-row justify="center">
        <div class="mt-4 text-center">

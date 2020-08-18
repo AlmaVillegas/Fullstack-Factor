@@ -2,12 +2,12 @@
   <div> 
   <v-container>
     <v-row justify="center">
-      <h1 class="display-2 font-weight-bold mb-3">
+      <h2 class="display-2 font-weight-bold mb-3">
           Exercise 3
-      </h1>
+      </h2>
     </v-row>
     <v-row justify="center">
-      <v-btn v-on:click="count++">Count</v-btn>
+      <v-btn color="primary" v-on:click="count++">Count</v-btn>
     </v-row>
     <v-row justify="center"> 
       <h2 class="display-2 font-weight-bold mb-3">
