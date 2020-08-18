@@ -11,18 +11,22 @@
     </v-app-bar>
 
     <v-main>
+      <Palindromo/>
+      <v-spacer></v-spacer>
       <VueCount/>
     </v-main>
   </v-app>
 </template>
 
 <script>
+import Palindromo from './components/Palindromo'
 import VueCount from './components/VueCount'
 
 export default {
   name: 'App',
 
   components: {
+    Palindromo,
     VueCount
   },
 
